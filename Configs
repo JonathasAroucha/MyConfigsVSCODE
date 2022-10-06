@@ -1,0 +1,44 @@
+{
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "material-icon-theme.activeIconPack": "react_redux",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.colorTheme": "Bluloco Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "json.schemas": [
+      {
+        "exclude":["node_modules"]
+      }
+    ],
+    "security.workspace.trust.banner": "always",
+    "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+}
