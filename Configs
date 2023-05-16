@@ -1,10 +1,9 @@
 {   
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.smoothScrolling": true,
     "editor.cursorBlinking": "phase",
     "editor.fontLigatures": true,
     "tabnine.experimentalAutoImports": true,
-    "RainbowBrackets.depreciation-notice": true,
     "material-icon-theme.activeIconPack": "react_redux",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
@@ -16,8 +15,7 @@
     "[javascript]": {
       "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "workbench.colorTheme": "Omni",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "symbols",
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
@@ -26,6 +24,20 @@
     },
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Omni",
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.productIconTheme": "fluent-icons",
     
 
 }
